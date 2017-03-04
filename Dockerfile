@@ -1,4 +1,4 @@
-FROM firewarm/alpine:3.4
+FROM lightinglyg/alpine-base:3.4
 
 MAINTAINER Lighting <liuyg@liuyingguang.cn>
 
