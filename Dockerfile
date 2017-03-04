@@ -1,8 +1,8 @@
-FROM registry.cn-hangzhou.aliyuncs.com/firewarm/apps:alpine-base-3.4
+FROM firewarm/alpine:3.4
 
 MAINTAINER Lighting <liuyg@liuyingguang.cn>
 
-ENV LEANOTE_VERSION=2.1
+ENV LEANOTE_VERSION=2.3
 
 RUN mkdir -p /usr/local/src \
   && cd /usr/local/src \
