@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/firewarm/apps:alpine-base-3.4
+FROM lightinglyg/alpine-base:3.4
 
 MAINTAINER Lighting <liuyg@liuyingguang.cn>
 
