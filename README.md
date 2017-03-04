@@ -1,5 +1,11 @@
 # lenote-docker
 
+### How to build
+
+```
+docker build -t registry.cn-hangzhou.aliyuncs.com/firewarm/apps:leanote-2.2.1 .
+```
+
 ### How to run
 #### 1. modify app.conf
 The configurations of leanote is stored in the file leanote/conf/app.conf.
@@ -15,9 +21,10 @@ app.secret=V85ZzBeTnzpsHyjQX4zukbQ8qqtju9y2aDM55VWxAH9Qop1apoekx3xkcDVvrD0y #
 ```
 #### 2. run leanote
 ```
-docker run -d -p 9000:9000 -v /your_conf_path:/usr/local/src/leanote/conf/app.conf  lightinglyg/leanote:2.1-alpine
+docker run -d -p 9000:9000 -v /your_conf_path:/usr/local/src/leanote/conf/app.conf  registry.cn-hangzhou.aliyuncs.com/firewarm/apps:leanote-2.1
 ```
 eg. 
 ```
-docker run -d -p 9000:9000 -v /home/soft/leanote/conf/app.conf:/usr/local/src/leanote/conf/app.conf  lightinglyg/leanote:2.1-alpine
+docker run -d -p 9000:9000 -v /home/soft/leanote/conf/app.conf:/usr/local/src/leanote/conf/app.conf  registry.cn-hangzhou.aliyuncs.com/firewarm/apps:leanote-2.1
 ```
+
