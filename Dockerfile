@@ -1,4 +1,5 @@
-FROM lightinglyg/alpine-base:3.4
+FROM hub.c.163.com/lightingfire/alpine-base:3.4
+
 
 MAINTAINER Lighting <liuyg@liuyingguang.cn>
 
